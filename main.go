@@ -34,6 +34,8 @@ func main() {
 			programs.RunUtc(reader)
 		} else if program == "fromlocation" {
 			programs.RunFromLocation(reader)
+		} else if program == "examples" {
+			programs.RunExamples(reader)
 		} else {
 			log.Println("could not find program")
 		}
